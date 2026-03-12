@@ -1,0 +1,25 @@
+package example1;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Map;
+
+public class ArrayListExample {
+	
+	public static void main(String[] args) {
+		
+		HashMap<Integer, String> emp = new HashMap<Integer, String>();
+		
+		emp.put(101, "Harshil Narkar");
+		emp.put(105, "Pratibha Mishra");
+		emp.put(108, "Amit Tambe");
+		emp.put(112, "Harshil Narkar");
+		
+		for(Map.Entry<Integer, String> entry : emp.entrySet()) {
+			System.out.println(entry.getKey() + " => "+ entry.getValue());
+		}
+	}
+
+}

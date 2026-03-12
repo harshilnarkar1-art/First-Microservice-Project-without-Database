@@ -1,0 +1,25 @@
+package example1;
+
+import java.util.ArrayList;
+
+
+
+public class ArrayListExample {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<String> city = new ArrayList<String>();
+		
+		city.add("Mumbai");
+		city.add("Ahamdabad");
+		city.add("Delhi");
+		city.add("Goa");
+		city.add("Thane");
+		
+		for(String c : city) {
+			System.out.println(c);
+		}
+		
+	}
+
+}

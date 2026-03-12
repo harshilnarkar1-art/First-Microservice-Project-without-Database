@@ -1,0 +1,23 @@
+package example1;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<String> students = new ArrayList<String>();
+		students.add("Harshil");
+		students.add("Pratibha");
+		students.add("Aditi");
+		students.add("Harshil");
+		students.add(null);
+		
+		System.out.println(students);
+		
+		System.out.println(students.get(1));
+		
+		System.out.println(students.remove(2));
+	}
+
+}

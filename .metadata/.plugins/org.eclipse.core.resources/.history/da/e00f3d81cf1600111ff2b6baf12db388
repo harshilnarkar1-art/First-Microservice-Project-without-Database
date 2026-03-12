@@ -1,0 +1,35 @@
+package example1;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+
+public class ArrayListExample {
+	
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		
+		ArrayList<String> name = new ArrayList<String>();
+		
+		name.add("Harshil");
+		name.add("Pratibha");
+		name.add("Rajesh");
+		name.add("Sheetal");
+		name.add("Shantaram");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter Your Name : "+sc.nextLine());
+		if(name.equals(sc)) {
+			name.remove(name.equals(sc));
+		}else {
+			name.add(sc.nextLine());
+		}
+		System.out.println(name);
+		
+		
+		
+	}
+
+}

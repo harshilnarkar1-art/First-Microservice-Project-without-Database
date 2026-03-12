@@ -1,0 +1,37 @@
+package example1;
+
+import java.util.ArrayList;
+
+
+
+public class ArrayListExample {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		
+		list.add(45);
+		list.add(79);
+		list.add(13);
+		list.add(69);
+		list.add(55);
+		list.add(771);
+		list.add(36);
+		list.add(13);
+		list.add(69);
+		list.add(55);
+		list.add(10);
+		
+		int max = 0;
+		for(int l : list) {
+			
+			if(l > max) {
+				max = l;
+			}
+			
+		}
+		System.out.println("Max Number = "+max);
+		
+	}
+
+}

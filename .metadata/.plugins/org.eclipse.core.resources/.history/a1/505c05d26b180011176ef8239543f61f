@@ -1,0 +1,27 @@
+package example1;
+
+import java.util.LinkedList;
+
+public class ArrayListExample {
+	
+	public static void main(String[] args) {
+		
+		LinkedList<Integer> num = new LinkedList<Integer>();
+		
+		num.add(46);
+		num.add(66);
+		num.addLast(49);
+		num.addFirst(466);
+		
+		int count = 0;
+		
+		for(int n : num) {
+			if(n%2==0) {
+				count++;
+			}
+		}
+		System.out.println("Even Number : "+count);
+		
+	}
+
+}

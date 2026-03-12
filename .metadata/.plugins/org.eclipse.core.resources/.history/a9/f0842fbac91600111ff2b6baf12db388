@@ -1,0 +1,19 @@
+package example1;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+public class ArrayListExample {
+	
+	public static void main(String[] args) {
+		
+		HashSet<String> emails = new HashSet<String>();
+		
+		emails.add("pratibha@gmail.com");
+		emails.add("harshil@gmail.com");
+		emails.add("harshil@gmail.com");
+		
+		System.out.println("Emails = "+emails);
+	}
+
+}
